@@ -161,7 +161,7 @@ $ cat > mylib.ss <<EOF
 EOF
 ```
 
-Now let's compile it. By default, gxc will place compiler artefacts in `~/.gerbil/lib`.
+Now let's compile it. By default, gxc will place compiler artifacts in `~/.gerbil/lib`.
 You can change this by exporting the `GERBIL_PATH` variable.
 You may also explicitly use the `-d` option;
 but then you'll have to add your libdir to `GERBIL_LOADPATH`.
